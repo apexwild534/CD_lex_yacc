@@ -10,7 +10,7 @@ To set up Lex and Yacc (Flex and Bison), follow the instructions below:
    sudo apt install flex
    sudo apt install bison
    ```
-## To the Output
+## To exit the Output
 Press ctrl+d
 
 ## Lex Examples
