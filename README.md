@@ -10,6 +10,33 @@ To set up Lex and Yacc (Flex and Bison), follow the instructions below:
    sudo apt install flex
    sudo apt install bison
    ```
+## To create and write in lex file
+
+   ```bash
+   nano file.l
+   ```
+
+## To create and write in yacc file
+
+   ```bash
+   nano file.y
+   ```
+
+## To execute lex code
+
+   ```bash
+   flex file.l
+   gcc lex.yy.c -o file -lfl
+   ./file
+   ```
+## To execute yacc code
+
+   ```bash
+   yacc -d file.y
+   flex file.l
+   gcc y.tab.c lex.yy.c -o file -lfl
+   ./file
+   ```
 ## To exit the Output
 Press ctrl+d
 
